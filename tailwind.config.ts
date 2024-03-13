@@ -16,7 +16,7 @@ const config: Config = {
         'golden': '#f2af11',
       },
       gridTemplateColumns: {
-        'fillmax': 'repeat(auto-fill, minmax(300px, 1fr))'
+        'fillmax': 'repeat(auto-fill, minmax(350px, 1fr))',
       },
     },
   },

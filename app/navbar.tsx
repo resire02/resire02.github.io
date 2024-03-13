@@ -7,6 +7,7 @@ export default function Navbar() : React.ReactNode
         <nav>
             <Link href="/"      className="mx-4 text-golden hover:underline hover:text-white block lg:inline">Home</Link>   
             <Link href="/links" className="mx-4 text-golden hover:underline hover:text-white block lg:inline">Cool Links</Link>
+            <Link href="/music" className="mx-4 text-golden hover:underline hover:text-white block lg:inline">My Music</Link>
         </nav>
     </div>
 }

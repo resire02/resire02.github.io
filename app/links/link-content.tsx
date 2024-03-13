@@ -7,8 +7,8 @@ export default function LinkContent() : React.ReactNode
         let content = obj['links'].map(link =>
             <a href={link['link']} key={link['summary']} className='block text-gray-500 hover:text-white'>{link['summary']}</a>
         );
-        return <div key={title} className='p-3 border-white border-2 border-solid text-center bg-black'>
-            <h2 className='text-2xl text-golden font-bold'>{title}</h2>
+        return <div key={title} className='p-3 border-white border-2 border-solid text-center bg-black shadow-lg hover:shadow-white transition-shadow'>
+            <h2 className='text-2xl text-golden font-bold pb-2'>{title}</h2>
             {content}
         </div>;
     });

@@ -7,11 +7,11 @@ import LinkContent from './link-content'
  */
 export default function LinksPage() : React.ReactNode
 {
-    return <div>
-        <div className='text-center py-3'>
+    return <div className='px-10 py-5'>
+        <div className='text-center py-3 mb-2'>
             <h1 className='text-golden text-4xl font-bold'>Useful Links</h1>
         </div>
-        <div className='grid grid-cols-fillmax gap-4 p-4'>
+        <div className='grid grid-cols-fillmax gap-6'>
             <LinkContent />
         </div>
     </div>

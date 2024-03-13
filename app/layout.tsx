@@ -19,9 +19,9 @@ export default function RootLayout(
 {
     return (
         <html lang="en">
-            <body className={globalFont.className}>
+            <body className={globalFont.className + " bg-black"}>
                 <Navbar />
-                <div className='bg-seaspace bg-cover bg-no-repeat h-screen p-2'>
+                <div className='bg-seaspace bg-cover bg-no-repeat h-fit md:h-screen lg:h-screen p-2'>
                     {children}
                 </div>
                 <Footer />

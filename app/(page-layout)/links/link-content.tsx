@@ -1,6 +1,5 @@
 export default function LinkContent() : React.ReactNode
 {
-
     return allLinks.map(obj => {
         let title = obj['title'];
         let content = obj['links'].map(link =>

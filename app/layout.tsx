@@ -1,11 +1,9 @@
 import { Courier_Prime } from 'next/font/google'
 import type { Metadata } from "next";
-import Navbar from './navbar'
-import Footer from './footer'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: "My Website",
+  title: "Resire's Website",
   description: "Made by resire02",
 };
 
@@ -20,11 +18,7 @@ export default function RootLayout(
     return (
         <html lang="en">
             <body className={globalFont.className}>
-                <Navbar />
-                <div className='bg-seaspace bg-cover bg-no-repeat h-screen p-2'>
-                    {children}
-                </div>
-                <Footer />
+                {children}
             </body>
         </html>
     );

@@ -3,6 +3,9 @@ const nextConfig = {
     output: 'export',
     typescript: {
         ignoreBuildErrors: false
+    },
+    images: {
+        unoptimized: true
     }
 };
 

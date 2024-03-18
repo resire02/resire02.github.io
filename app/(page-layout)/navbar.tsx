@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Navbar() : React.ReactNode
 {
-    return <div className="flex w-full justify-between items-center p-5 bg-navy-sea border-white border-b-2">
+    return <div className="flex w-full justify-between items-center p-5 bg-navy-sea border-white border-b-2 shadow-md shadow-black">
         <Link href='/'>
             <h1 className="text-2xl font-bold text-white">Resire&apos;s Website</h1>
         </Link>

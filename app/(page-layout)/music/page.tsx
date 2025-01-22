@@ -1,6 +1,6 @@
-import Navbar from "../navbar";
-import Footer from "../footer";
-import AudioPlayer from "./audio-player";
+import Navbar from "../../../components/navbar";
+import Footer from "../../../components/footer";
+import AudioPlayer from "../../../components/music/audio-player";
 
 export default function MusicPage() : React.ReactNode
 {

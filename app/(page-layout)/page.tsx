@@ -1,7 +1,7 @@
 "use client"
 
-import Navbar from "./navbar";
-import Footer from "./footer";
+import Navbar from "../../components/navbar";
+import Footer from "../../components/footer";
 import { motion } from "framer-motion";
 
 export default function Home() : React.ReactNode

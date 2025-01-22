@@ -1,6 +1,6 @@
 import LinkContent from './link-content'
-import Navbar from '../navbar';
-import Footer from '../footer';
+import Navbar from '../../../components/navbar';
+import Footer from '../../../components/footer';
 
 /**
  * Main Links page

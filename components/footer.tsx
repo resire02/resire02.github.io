@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link';
 
-import GithubLogo from '../../public/github.png'
+import GithubLogo from '../public/github.png'
 
 export default function Footer() : React.ReactNode
 {

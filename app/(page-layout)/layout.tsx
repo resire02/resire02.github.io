@@ -1,6 +1,6 @@
 import { Courier_Prime } from 'next/font/google'
-import Navbar from './navbar'
-import Footer from './footer'
+import Navbar from '../../components/navbar'
+import Footer from '../../components/footer'
 import '../globals.css'
 
 const globalFont = Courier_Prime({

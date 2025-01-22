@@ -9,7 +9,7 @@ const globalFont = Courier_Prime({
 });
 
 export default function RootLayout(
-    {children,}: Readonly<{children: React.ReactNode;}>) 
+    {children,}: Readonly<{children: Iterable<React.ReactElement> }>) 
 {
     return (
         <html lang="en">

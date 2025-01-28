@@ -1,0 +1,42 @@
+[
+    {
+        "title": "When is Good Scheduling Tool",
+        "url": "https://whenisgood.net/",
+        "tags": ["scheduling", "tool"]
+    },
+    {
+        "title": "MDM Web Docs",
+        "url": "https://developer.mozilla.org/en-US/",
+        "tags": ["docs", "web", "html", "css", "javascript"]
+    },
+    {
+        "title": "Bash Reference Manual",
+        "url": "https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html",
+        "tags": ["bash", "reference"]
+    },
+    {
+        "title": "The Modern Javascript Tutorial",
+        "url": "https://javascript.info/",
+        "tags": ["javascript", "guide"]
+    },
+    {
+        "title": "Vault of Math Symbols",
+        "url": "https://mathvault.ca/hub/higher-math/math-symbols/",
+        "tags": ["math", "reference"]
+    },
+    {
+        "title": "MIPS Assembly Tutorial",
+        "url": "https://chortle.ccsu.edu/AssemblyTutorial/index.html",
+        "tags": ["assembly", "guide"]
+    },
+    {
+        "title": "Interactive Rust Programming Textbook",
+        "url": "https://rust-book.cs.brown.edu/experiment-intro.html",
+        "tags": ["rust", "guide"]
+    },
+    {
+        "title": "Free Programming Books",
+        "url": "https://ebookfoundation.github.io/free-programming-books-search/",
+        "tags": ["books", "guide"]
+    }
+]
